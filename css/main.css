@@ -1,0 +1,96 @@
+body {
+  background-color: rgb(255, 255, 255));
+}
+
+header {
+  width: 100%;
+  position: fixed;
+}
+
+header>* {
+  display: inline-block;
+  text-align: center;
+}
+h1>i {
+  width: 8%;
+  color: red;
+  position: relative;
+  top: 0%;
+  margin-right: 20%;
+}
+#Search, #search-input {
+  border: none;
+  width: 50%;
+  font-size: 1.5em;
+  margin-left: 3%;
+  background-color: rgb(239, 239, 239);
+  margin-right: 5%;
+  border-radius: 4%;
+}
+#Search>form>label>i {
+  color: #B5B5B5;
+  width: 2em;
+  height: 1em;
+  font-weight: bold;
+  position: absolute;
+  right: 90%;
+  top: 25%;
+}
+.Navigation-bar {
+  text-decoration: none;
+  color: #B7B7B7;
+  font-size: 1.5em;
+  font-weight: bolder;
+  position: relative;
+  left: 30%;
+  bottom: 2em;
+  margin: .5%;
+}
+
+.Picked-for-you {
+  display: inline-block;
+  box-sizing: content-box;
+  position: fixed;
+  bottom: 78%;
+}
+hr {
+  color: #EFEFEF;
+  width: 100%;
+  position: fixed;
+  top: 10%;
+}
+section>nav>.Picked-for-you-pins {
+  color: white;
+  width: 3em;
+  height: 1em;
+  border-radius: 15%;
+  border-style: groove;
+  border-color: purple;
+  background-color: #DB9EA7;
+  box-sizing: content-box;
+  padding: 1.5%;
+  font-weight: bolder;
+  font-size: 1.4em;
+  margin-right: 2%;
+  margin-bottom: 30%;
+  top: 10em;
+  text-align: center;
+}
+.Column {
+  float: left;
+  width: 30%;
+  margin: 16px;
+
+}
+img{
+  width: 300px;
+  margin-top: 160px;
+  border-radius: 15%;
+}
+.titulo{
+  width: 15px;
+  font-style: bold;
+  font-size: 20px;
+  position: relative;
+  left: 8px;
+}
